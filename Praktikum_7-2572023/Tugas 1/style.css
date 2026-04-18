@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #0d6efd;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    color: #333;
+}
+
+.btn-daftar {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+}
+
+.hero {
+    background-color: #0d6efd;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 20px;
+    Padding: 100px 20px;
+}
+
+.hero-buttons {
+    flex-direction: row;
+}
+
+.courses-section { 
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.courses-grid {
+    display: grid;
+}
+
+.courses-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.courses-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.badge 
+
+.carousel-item {
+    min-height: 120px;
+}
+
+.carousel p {
+    max-width: 600px;
+    margin: 0 auto;
+}
